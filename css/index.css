@@ -1,0 +1,190 @@
+html{
+	background-color: blanchedalmond;
+}
+
+#center{
+	text-align: center;
+}
+.container{
+	width: 1000px;
+	min-height: 1000px;
+	background-color: white;
+	display: inline-block;
+}
+
+.header{
+	width: 800px;
+	min-height: 300px;
+	background-color: floralwhite;	
+	padding-top: 10px;
+	display: inline-block;
+}
+
+.nav{
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+	font-family: unset;
+	background-color: inherit;
+	position: sticky;
+	top: 3px;
+	border: 1px solid;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+#me{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 310px;
+	height: 360px;
+	padding-top: 10px;	
+}
+
+.table{
+	font-family: serif;
+	font-weight: bold;
+}
+
+#ex1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 270px;
+	height: 300px;
+	padding-top: 10px;
+}
+
+#ex2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 300px;
+	padding-top: 10px;	
+}
+
+#ex3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	height: 300px;
+	padding-top: 10px;	
+}
+
+#greet{
+	color: blue;
+	font-family: serif;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+h3{
+	font-family: cursive;
+	text-align: center;
+	background-color: inherit;
+}
+
+.main{
+	width: 800px;
+	min-height: 400px;
+	background-color: floralwhite;
+	display: inline-block;
+}
+
+.paragraph{
+	background-color: inherit;
+	font-family: sans-serif;
+	text-indent: 20px;
+	line-height: 35px;
+	display: inline-block;
+}
+
+p{
+	text-align: left;
+}
+
+.footer{
+	width: 800px;
+	min-height: 500px;
+	background-color: floralwhite;
+	display: inline-block;
+}
+
+.list{
+	text-align: left;
+	font-size: large;
+	font-family: sans-serif;
+}
+
+ul{
+	background-color: blanchedalmond;
+	padding: 30px;
+}
+
+li{
+	background-color: white;
+	padding: 5px;
+	margin: 6px;
+}
+
+#lmk{
+	position: relative;
+	text-align: left;
+	font-family: sans-serif;
+	margin-left: 320px;
+	margin-right: 200px;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+input[type=button]{
+	outline: none;
+    margin: 0;
+    background: #e2ebee;
+    border-radius: .25em;
+    cursor: pointer;
+    border: 0;
+    padding: 1px 6px;
+    text-rendering: optimizeLegibility;
+    font-size: inherit;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: black;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);    
+}
+
+input[type=button]:hover,
+input[type=button].hover{
+	box-shadow:
+        inset 0 0 0 1px rgba(0, 0, 0, 0.2),
+        0 .5px 4px rgba(0, 0, 0, 0.3)
+}
+
+input[type=button]:active{
+	background-color: #b1c1c6;
+	box-shadow: 0 2px #666;
+	transform: translateY(1px);
+}
+
+input[type=text]:focus{
+  background-color: lightblue;
+}
+
+#benefits{
+	position: relative;
+	display: inline-block;
+}
+
+h2{
+	font-family: serif;
+	font-weight: 300px;
+}
+
+span{
+	font-style: italic;
+}
